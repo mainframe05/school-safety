@@ -63,10 +63,10 @@ $("requestHelpBtn").onClick(event => {
 });
 
 //Called when the request assistance button is clicked
-const requestAssistance = emerMsg => {
+const requestAssistance = emergencyMsg => {
     $.ajax("/api/alert", {
         type: "POST",
-        data: emerMsg
+        data: emergencyMsg
     }).then(response => {
         console.log("your request for help has been sent", response);
         $("#emergencyModal").hide();

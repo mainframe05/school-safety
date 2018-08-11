@@ -7,10 +7,10 @@ var client = new twilio(accountSid, authToken);
 module.exports = function (app) {
     // POST route for sending a message.
     app.post("/api/alert", function (req, res) {
-        console.log("alert", req.body);
+        console.log("alert", req.body.emergencyMsg);
 
         client.messages.create({
-                body: 'message placeholder.',
+                body: req.body.emergencyMsg,
                 to: '+14075796570', // Text this number
                 from: '+13213207928' // From a valid Twilio number
             })
