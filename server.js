@@ -34,7 +34,7 @@ app.use(express.static(path.join(__dirname,"/app/public")));
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
 require("./app/apiRoutes")(app);
-// require("./app/htmlRoutes")(app);
+require("./app/htmlRoutes")(app);
 
 // =============================================================================
 // LISTENER
