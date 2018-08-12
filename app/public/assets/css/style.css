@@ -1,6 +1,33 @@
+#top_nav {
+    background-color: #c4e3cb;
+    font-weight: bolder;
+    margin-bottom: 20px;
 
-body
-{
-    color: black;
 }
 
+#logo {
+    color: #155e63;
+}
+
+body{
+    background-color:#6a9c78;
+}
+
+.em_button{
+    background-color: #bf1e2d;
+   
+}
+ 
+
+.card{
+    background-color:#fff1bc;
+    border-radius: 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.card-reveal{
+    background-color:#fff1bc;
+}
+.card-reveal{
+    background-color: #fff1bc;
+}
