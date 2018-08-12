@@ -3,16 +3,17 @@
 
 <head>
     <title>School Safety</title>
+    <!-- favicon links -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,29 +24,29 @@
 
 
 
-<nav style="background-color: #c4e3cb">
+<nav id="top_nav">
     <div class="nav-wrapper">
-        <a href="#" class="brand-logo center" style="bold">School Safety Resources</a>
+        <a href="#" class="brand-logo center" id="logo">SENA</a>
 
     </div>
 </nav>
 
-<body style="background-color:#6a9c78">
+<body>
     <div class="main_container">
         <div class="button_container">
 
             <div class="row">
 
                 <div class="col s3 offset-s1">
-                    <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="background-color: #bf1e2d">ADMIN</a>
+                    <a class="waves-effect waves-light btn-large modal-trigger em_button" href="#modal1" >ADMIN</a>
                 </div>
 
                 <div class="col s3 offset-s1">
-                    <a class="waves-effect waves-light btn-large modal-trigger" style="background-color: #bf1e2d">SRO</a>
+                    <a class="waves-effect waves-light btn-large modal-trigger em_button" >SRO</a>
                 </div>
 
                 <div class="col s3 offset-s1">
-                    <a class="waves-effect waves-light btn-large modal-trigger" style="background-color: #bf1e2d">MED</a>
+                    <a class="waves-effect waves-light btn-large modal-trigger em_button" >MED</a>
                 </div>
 
 
@@ -53,8 +54,8 @@
             </div>
 
             <div class="row">
-                <div class="col m4 offset-m2">
-                    <div class="card z-depth-5" style="background-color: #fff1bc">
+                <div class="col s4 offset-s2">
+                    <div class="card z-depth-5" >
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="assets/images/medical.png">
                         </div>
@@ -64,7 +65,7 @@
                             </span>
 
                         </div>
-                        <div class="card-reveal" style="background-color: #fff1bc">
+                        <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Medical Need
                                 <i class="material-icons right">close</i>
                             </span>
@@ -102,8 +103,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col m4">
-                    <div class="card z-depth-5" style="background-color: #fff1bc">
+                <div class="col s4">
+                    <div class="card z-depth-5">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="assets/images/bomb.png">
                         </div>
@@ -113,7 +114,7 @@
                             </span>
 
                         </div>
-                        <div class="card-reveal" style="background-color: #fff1bc">
+                        <div class="card-reveal" >
                             <span class="card-title grey-text text-darken-4">Explosive Threat
                                 <i class="material-icons right">close</i>
                             </span>
@@ -124,18 +125,18 @@
 
             </div>
             <div class="row">
-                <div class="col m4 offset-m2">
-                    <div class="card z-depth-5" style="background-color: #fff1bc">
+                <div class="col s4 offset-s2">
+                    <div class="card z-depth-5" >
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="assets/images/fire.png">
                         </div>
-                        <div class="card-content" style="background-color: #fff1bc">
+                        <div class="card-content" >
                             <span class="card-title activator grey-text text-darken-4">Fire
                                 <i class="material-icons right">more_vert</i>
                             </span>
 
                         </div>
-                        <div class="card-reveal" style="background-color: #fff1bc">
+                        <div class="card-reveal" >
                             <span class="card-title grey-text text-darken-4">Fire
                                 <i class="material-icons right">close</i>
                             </span>
@@ -143,8 +144,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="col m4">
-                    <div class="card z-depth-5" style="background-color: #fff1bc">
+                 <div class="col s4">
+                        <div class="card z-depth-5" >
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="assets/images/lockdown.png">
+                                </div>
+                                <div class="card-content" >
+                                    <span class="card-title activator grey-text text-darken-4">Lockdown
+                                        <i class="material-icons right">more_vert</i>
+                                    </span>
+        
+                                </div>
+                                <div class="card-reveal" >
+                                    <span class="card-title grey-text text-darken-4">Fire
+                                        <i class="material-icons right">close</i>
+                                    </span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                       <!-- <div class="card z-depth-5" style="background-color: #fff1bc">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="assets/images/lockdown.png">
                         </div>
@@ -160,8 +179,8 @@
                             </span>
                             <p>Here is some more information about this product that is only revealed once clicked on.</p>
                         </div>
-                    </div>
-                </div>
+                    </div>-->
+                </div> 
 
             </div>
 
@@ -175,7 +194,8 @@
     </div>
 
     <!--JavaScript at end of body for optimized loading-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 </body>
 
 </html>
