@@ -1,7 +1,9 @@
-document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems, options);
-});
+
+// modal trigger language from the materialize site
+// document.addEventListener('DOMContentLoaded', function () {
+//     var elems = document.querySelectorAll('.modal');
+//     var instances = M.Modal.init(elems, options);
+// });
 
 
 
