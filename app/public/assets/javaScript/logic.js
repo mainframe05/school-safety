@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.modal');
     var instances = M.Modal.init(elems, options);
-  });
+});
 
 
 
@@ -77,7 +77,6 @@ const requestAssistance = emergencyMsg => {
     }).then(response => {
         console.log("your request for help has been sent", response);
         $("#emergencyModal").hide();
-                
-    }
-    )
+
+    })
 };
