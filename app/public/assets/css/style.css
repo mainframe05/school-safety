@@ -31,3 +31,7 @@ body{
 .card-reveal{
     background-color: #fff1bc;
 }
+#lockdown{
+    background-color:#fff1bc;
+    border-radius: 50px; 
+}
