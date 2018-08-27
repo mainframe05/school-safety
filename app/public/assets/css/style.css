@@ -21,7 +21,15 @@ body {
     text-align: center;
     vertical-align: middle;
     line-height: 100px;
+    
 }
+.em_button:hover{
+    background-color: #FFEB28;
+}
+.em_button:active:{
+    background-color: #41FF48;
+}
+
 
 .card {
     background-color: #fff1bc;
@@ -41,4 +49,12 @@ body {
 #lockdown {
     background-color: #fff1bc;
     border-radius: 50px;
+}
+
+.tab{
+    background-color: #fff1bc;
+    columns: #000000; 
+}
+.card-content{
+    background-color: #fff1bc;
 }

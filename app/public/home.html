@@ -13,8 +13,8 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-     <!--Import materialize.css-->
-     <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+    <!--Import materialize.css-->
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
@@ -45,28 +45,48 @@
             <div class="row">
 
                 <div class="col s3 offset-s2">
-                    <a class="waves-effect waves-light btn-large modal-trigger em_button" href="#modal1" id="administrator">ADMIN</a>
+                    <a class="waves-effect waves-green btn-large modal-trigger em_button truncate" href="#modal1" id="administrator">ADMIN</a>
                 </div>
-                
+
 
                 <div class="col s3 ">
-                    <a class="waves-effect waves-light btn-large modal-trigger em_button" id="SRO">SRO</a>
+                    <a class="waves-effect waves-green btn-large modal-trigger em_button" href="#modal2" id="SRO">SRO</a>
                 </div>
 
                 <div class="col s3 ">
-                    <a class="waves-effect waves-light btn-large modal-trigger em_button" id="medical">MED</a>
+                    <a class="waves-effect waves-green btn-large modal-trigger em_button" href="#modal3" id="medical">MED</a>
                 </div>
 
-<!-- Modal Structure  (per the Materialize site)-->
-<div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-    </div>
-  </div>
+                <!-- Modal Structure  (per the Materialize site)-->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>Modal Header</h4>
+                        <p>A bunch of text</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                    </div>
+                </div>
+
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <h4>Modal Header</h4>
+                        <p>A bunch of text</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                    </div>
+                </div>
+
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <h4>Modal Header</h4>
+                        <p>A bunch of text</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                    </div>
+                </div>
 
             </div>
 
@@ -158,7 +178,23 @@
                                 <i class="material-icons right">close</i>
                             </span>
                             <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            
+                            <ul class="tabs">
+                            <li class="tab col s3">
+                                <a href="#test1">Test 1</a>
+                            </li>
+                            <li class="tab col s3">
+                                <a href="#test2">Test 2</a>
+                            </li>
+                            <li class="tab col s3">
+                                <a href="#test1">Test 3</a>
+                            </li>
+                        </ul>
+                        <div id="test1" class="col s12">Stop</div>
+                        <div id="test2" class="col s12">Drop</div>
+                        <div id="test3" class="col s12">Roll</div>
                         </div>
+                        
                     </div>
                 </div>
                 <div class="col s4">
@@ -167,41 +203,57 @@
                             <img class="activator" src="assets/images/lockdown.png" id="lockdown">
                         </div>
                         <div class="card-content">
+
                             <span class="card-title activator grey-text text-darken-4">Lockdown
                                 <i class="material-icons right">more_vert</i>
                             </span>
 
                         </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Fire
-                                <i class="material-icons right">close</i>
-                            </span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <div class="card-tabs">
+                            <ul class="tabs tabs-fixed-width">
+                                <li class="tab">
+                                    <a href="#test4">Test 1</a>
+                                </li>
+                                <li class="tab">
+                                    <a class="active" href="#test5">Test 2</a>
+                                </li>
+                                <li class="tab">
+                                    <a href="#test6">Test 3</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-content">
+                            <div id="test4">Test 1</div>
+                            <div id="test5">Test 2</div>
+                            <div id="test6">Test 3</div>
                         </div>
                     </div>
-                </div>
 
+
+                </div>
             </div>
 
         </div>
 
-
-
     </div>
 
 
 
     </div>
+
+
+
+    </div>
     </div>
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <!-- external JS link -->
     <script src="assets/javaScript/logic.js"></script>
     <!-- Jquery link (minified v3.3.1) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
